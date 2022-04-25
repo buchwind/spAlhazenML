@@ -1,0 +1,2 @@
+# spAlhazenML
+study project 
