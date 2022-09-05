@@ -5,8 +5,9 @@ To do your own experiments:
 
 1) build Alhazen
 2) create subject in alhazen-dbgbench/subjects
-3) run alhazen in alhazen-dbgbench/parsers/build/dist to create explanation (./alhazen -h for more info)
-\n example: ./alhazen ../../../subjects/toydata/toydata.py ./toycomplex12345678 -s 12345678
+3) run alhazen in alhazen-dbgbench/parsers/build/dist to create explanation (./alhazen -h for more info) 
+
+example: ./alhazen ../../../subjects/toydata/toydata.py ./toycomplex12345678 -s 12345678
 4) extract the final decision tree .pickle files, rename and place into surrogate/<name> subfolder in evaluation code folder, also copy one depth.csv containing the feature names
 5) put generate_performance.py from alhazen performance folder into  alhazen-dbgbench/parsers/build/dist
 6) create testsamples and performance folder in /dist
