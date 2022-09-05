@@ -1,0 +1,54 @@
+name,depth,synthetic,readable name
+high_blood_pressure//0@1,0,false,"high_blood_pressure == ""0"""
+high_blood_pressure//1@2,0,false,"high_blood_pressure == ""1"""
+high_blood_pressure@0,1,false,high_blood_pressure@0
+ejection_fraction//0@78,0,false,"ejection_fraction == ""25"""
+ejection_fraction//1@79,2,false,"ejection_fraction == /""[1-9]""/ /""[0-9]""/?"
+max-char(ejection_fraction//1@79),2,false,"max-char(ejection_fraction == /""[1-9]""/ /""[0-9]""/?)"
+char-length(ejection_fraction//1@79),2,false,"char-length(ejection_fraction == /""[1-9]""/ /""[0-9]""/?)"
+ejection_fraction@3,3,false,ejection_fraction@3
+max-num(ejection_fraction@3),3,false,max-numeric(ejection_fraction@3)
+diabetes//0@8,0,false,"diabetes == ""0"""
+diabetes//1@9,0,false,"diabetes == ""1"""
+diabetes@7,1,false,diabetes@7
+age//0@72,0,false,"age == ""72"""
+age//1@73,1,false,"age == /""[3-9]""/ /""[0-9]""/"
+max-char(age//1@73),1,false,"max-char(age == /""[3-9]""/ /""[0-9]""/)"
+char-length(age//1@73),1,false,"char-length(age == /""[3-9]""/ /""[0-9]""/)"
+age@10,2,false,age@10
+max-num(age@10),2,false,max-numeric(age@10)
+sex//0@14,0,false,"sex == ""0"""
+sex//1@15,0,false,"sex == ""1"""
+sex@13,1,false,sex@13
+anaemia//0@17,0,false,"anaemia == ""0"""
+anaemia//1@18,0,false,"anaemia == ""1"""
+anaemia@16,1,false,anaemia@16
+smoking//0@20,0,false,"smoking == ""0"""
+smoking//1@21,0,false,"smoking == ""1"""
+smoking@19,1,false,smoking@19
+serum_sodium//0@85,0,false,"serum_sodium == ""140"""
+serum_sodium//1@86,1,false,"serum_sodium == ""1"" /""[0-9]""/ /""[0-9]""/"
+max-char(serum_sodium//1@86),1,false,"max-char(serum_sodium == ""1"" /""[0-9]""/ /""[0-9]""/)"
+char-length(serum_sodium//1@86),1,false,"char-length(serum_sodium == ""1"" /""[0-9]""/ /""[0-9]""/)"
+serum_sodium@22,2,false,serum_sodium@22
+max-num(serum_sodium@22),2,false,max-numeric(serum_sodium@22)
+platelets//0@81,0,false,"platelets == ""274000"""
+platelets//1@82,2,false,"platelets == /""[1-9]""/ /""[0-9]""/{0,5}"
+max-char(platelets//1@82),2,false,"max-char(platelets == /""[1-9]""/ /""[0-9]""/{0,5})"
+char-length(platelets//1@82),2,false,"char-length(platelets == /""[1-9]""/ /""[0-9]""/{0,5})"
+platelets@26,3,false,platelets@26
+max-num(platelets@26),3,false,max-numeric(platelets@26)
+serum_creatinine//0@83,0,false,"serum_creatinine == ""1"""
+serum_creatinine//1@84,5,false,"serum_creatinine == /""[0-9]""/ ⎧""."" ⎧""0"" /""[1-9]""/ | /""[1-9]""/ /""[0-9]""/⎫⎫?"
+max-char(serum_creatinine//1@84),5,false,"max-char(serum_creatinine == /""[0-9]""/ ⎧""."" ⎧""0"" /""[1-9]""/ | /""[1-9]""/ /""[0-9]""/⎫⎫?)"
+char-length(serum_creatinine//1@84),5,false,"char-length(serum_creatinine == /""[0-9]""/ ⎧""."" ⎧""0"" /""[1-9]""/ | /""[1-9]""/ /""[0-9]""/⎫⎫?)"
+serum_creatinine@30,6,false,serum_creatinine@30
+max-num(serum_creatinine@30),6,false,max-numeric(serum_creatinine@30)
+creatinine_phosphokinase//0@75,0,false,"creatinine_phosphokinase == ""110"""
+creatinine_phosphokinase//1@76,2,false,"creatinine_phosphokinase == /""[1-9]""/ /""[0-9]""/{0,3}"
+max-char(creatinine_phosphokinase//1@76),2,false,"max-char(creatinine_phosphokinase == /""[1-9]""/ /""[0-9]""/{0,3})"
+char-length(creatinine_phosphokinase//1@76),2,false,"char-length(creatinine_phosphokinase == /""[1-9]""/ /""[0-9]""/{0,3})"
+creatinine_phosphokinase@42,3,false,creatinine_phosphokinase@42
+max-num(creatinine_phosphokinase@42),3,false,max-numeric(creatinine_phosphokinase@42)
+EXPRESSION@46,8,false,EXPRESSION@46
+char-length(EXPRESSION@46),8,false,char-length(EXPRESSION@46)

@@ -1,0 +1,54 @@
+name,depth,synthetic,readable name
+delayed_healing//0@1,0,false,"delayed_healing == ""0"""
+delayed_healing//1@2,0,false,"delayed_healing == ""1"""
+delayed_healing@0,1,false,delayed_healing@0
+visual_blurring//0@4,0,false,"visual_blurring == ""0"""
+visual_blurring//1@5,0,false,"visual_blurring == ""1"""
+visual_blurring@3,1,false,visual_blurring@3
+Polyphagia//0@7,0,false,"Polyphagia == ""0"""
+Polyphagia//1@8,0,false,"Polyphagia == ""1"""
+Polyphagia@6,1,false,Polyphagia@6
+Polydipsia//0@10,0,false,"Polydipsia == ""0"""
+Polydipsia//1@11,0,false,"Polydipsia == ""1"""
+Polydipsia@9,1,false,Polydipsia@9
+weakness//0@13,0,false,"weakness == ""0"""
+weakness//1@14,0,false,"weakness == ""1"""
+weakness@12,1,false,weakness@12
+Irritability//0@16,0,false,"Irritability == ""0"""
+Irritability//1@17,0,false,"Irritability == ""1"""
+Irritability@15,1,false,Irritability@15
+Obesity//0@19,0,false,"Obesity == ""0"""
+Obesity//1@20,0,false,"Obesity == ""1"""
+Obesity@18,1,false,Obesity@18
+Polyuria//0@22,0,false,"Polyuria == ""0"""
+Polyuria//1@23,0,false,"Polyuria == ""1"""
+Polyuria@21,1,false,Polyuria@21
+Genital_thrush//0@25,0,false,"Genital_thrush == ""0"""
+Genital_thrush//1@26,0,false,"Genital_thrush == ""1"""
+Genital_thrush@24,1,false,Genital_thrush@24
+Age//0@84,0,false,"Age == ""70"""
+Age//1@85,1,false,"Age == /""[1-9]""/ /""[0-9]""/"
+max-char(Age//1@85),1,false,"max-char(Age == /""[1-9]""/ /""[0-9]""/)"
+char-length(Age//1@85),1,false,"char-length(Age == /""[1-9]""/ /""[0-9]""/)"
+Age@27,2,false,Age@27
+max-num(Age@27),2,false,max-numeric(Age@27)
+sudden_weight_loss//0@31,0,false,"sudden_weight_loss == ""0"""
+sudden_weight_loss//1@32,0,false,"sudden_weight_loss == ""1"""
+sudden_weight_loss@30,1,false,sudden_weight_loss@30
+Itching//0@34,0,false,"Itching == ""0"""
+Itching//1@35,0,false,"Itching == ""1"""
+Itching@33,1,false,Itching@33
+Gender//0@37,0,false,"Gender == ""0"""
+Gender//1@38,0,false,"Gender == ""1"""
+Gender@36,1,false,Gender@36
+EXPRESSION@39,4,false,EXPRESSION@39
+char-length(EXPRESSION@39),4,false,char-length(EXPRESSION@39)
+muscle_stiffness//0@76,0,false,"muscle_stiffness == ""0"""
+muscle_stiffness//1@77,0,false,"muscle_stiffness == ""1"""
+muscle_stiffness@75,1,false,muscle_stiffness@75
+Alopecia//0@79,0,false,"Alopecia == ""0"""
+Alopecia//1@80,0,false,"Alopecia == ""1"""
+Alopecia@78,1,false,Alopecia@78
+partial_paresis//0@82,0,false,"partial_paresis == ""0"""
+partial_paresis//1@83,0,false,"partial_paresis == ""1"""
+partial_paresis@81,1,false,partial_paresis@81
