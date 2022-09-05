@@ -7,18 +7,19 @@ To do your own experiments:
 2) create subject in alhazen-dbgbench/subjects
 3) run alhazen in alhazen-dbgbench/parsers/build/dist to create explanation (./alhazen -h for more info)  
 example: ./alhazen ../../../subjects/toydata/toydata.py ./toycomplex12345678 -s 12345678
-4) extract the final decision tree .pickle files, rename and place into surrogate/"name" subfolder in evaluation code folder, also copy one depth.csv containing the feature names
+4) extract the final decision tree .pickle files, rename and place them into surrogate/"name" subfolder in evaluation code folder, also copy one depth.csv containing the feature names
 5) put generate_performance.py from alhazen performance folder into  alhazen-dbgbench/parsers/build/dist
 6) create testsamples and performance folder in /dist
 7) generate samples to test performance of explanation (set_generator in /dist to generate samples)  
 example: ./set_generator -g "MoreOfTheSame(pseudocount(1):True)" -s 12345678 ../../../subjects/diabetes/diabetes.py samples/diabetessamples12345678
-8) for the next step and later evaluations the code needs to be modified (work through the code and modify/add where specific experiments are mentioned)
-9) to balance the sample set copy the samples to evaluation code samples/raw/"set" subfolder and run like example  
+8) for the next step and later evaluations the evaluation code needs to be modified (work through the code and modify/add where specific experiments are mentioned)
+9) to balance the sample set copy the samples to evaluation code samples/raw/"set" subfolder and run blackboxes.py
 example: python3 blackboxes.py -g "set"
 10) copy balanced test set to /dist/testsamples/"set"/test1
 11) modify generate_performance.py for your experiment
 12) generate performance .csv's with generate_performance.py  
-example: python3 generate_performance.py -t toydata -f toydata (-t: type defined in generate_performance.py to select correct subject -f: foldername of folder containing the Alhazen runs)
+example: python3 generate_performance.py -t toydata -f toydata  
+(-t: type defined in generate_performance.py to select correct subject -f: foldername of folder containing the Alhazen runs)
 13) copy generated .csv's to evaluation code surrogate/"name"/performance subfolder
 
 Evaluation code:
